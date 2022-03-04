@@ -3,10 +3,10 @@ function includPop(data) {
     const item = 
 
 popupCatsImg.innerHTML=`
-<div class="card-img" style="background-image: url(${data.img_link})"></div>;`
+<div class="popup_container_img" style="background-image: url(${data.img_link})"></div>`
 popupCatsText.innerHTML=`<h3>${data.name}</h3>
- <p>${data.age}</p>
- <p>${data.description}</p>;`
+ <p>Возраст:  ${data.age} год/года/лет</p>
+ <p>${data.description}</p>`
     }
 
 
